@@ -168,7 +168,8 @@ $(document).ready(function () {
 	}
 
 
-/////////////delete userdetails ////////////
+
+//=============Delete Userdetails============
 function DeleteUser(deleteid){
 
 	var conf = confirm("are u sure");
@@ -185,8 +186,7 @@ function DeleteUser(deleteid){
 	}
 }
 
-////////////////update part///////////////////
-
+//=============Updatation Part===============
 function GetUserDetails(id){
 	  $("#hidden_user_id").val(id);
 	  $.post("backend.php", {
